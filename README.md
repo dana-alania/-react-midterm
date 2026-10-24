@@ -1,16 +1,34 @@
-# -react-midterm# React + Vite
+# React Midterm Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based calculator application featuring an automated CI/CD pipeline built with Vite, Vitest, Docker, Nginx, and Jenkins.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📋 Features
 
-## React Compiler
+- **Arithmetic Operations:** Supports addition and subtraction calculations.
+- **Automated Testing:** Unit test suite using `vitest` covering core calculator logic.
+- **Dockerized Builds:** Multi-stage Docker builds ensuring consistent testing and static web asset packaging via Nginx.
+- **CI/CD Pipeline:** Automated integration triggering via GitHub Poll SCM and parameterized multi-environment deployments in Jenkins.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Before getting started, make sure you have the following installed on your local machine:
+
+- **Node.js:** `v18.x` or higher
+- **npm:** `v9.x` or higher
+- **Git:** Latest version
+- **Docker Desktop:** (Required for running release containers locally)
+
+---
+
+## 🚀 Local Setup & Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone [https://github.com/dana-alania/-react-midterm.git](https://github.com/dana-alania/-react-midterm.git)
+cd react-midterm
+```
